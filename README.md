@@ -173,12 +173,6 @@ scripts/
 
 ---
 
-## 📄 License
-
-Choose a license that matches your intent (e.g., MIT, Apache‑2.0). Add a `LICENSE` file and update this section.
-
----
-
 ## 🙏 Acknowledgements
 
 - **RDKit** for cheminformatics primitives
