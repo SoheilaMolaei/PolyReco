@@ -138,7 +138,6 @@ The output is a tab‑separated file with per‑pair scores and any configured m
 
 ## ⚙️ Notes on features
 
-- **WL-subtree kernel:** Implemented in‑notebook as a lightweight replacement for GraKeL; no external GraKeL dependency is required.
 - **ChemBERTa embeddings:** Uses `seyonec/ChemBERTa-zinc-base-v1` via Hugging Face `transformers`. Download will occur on first use.
 - **Metrics:** Includes ROC‑AUC, AP, F1, balanced accuracy, and helpers like `safe_roc_auc`, `binary_metrics`, and calibration utilities.
 - **Reproducibility:** `set_seed(...)` is provided; training code sets seeds for NumPy/PyTorch where applicable.
